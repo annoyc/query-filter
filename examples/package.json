@@ -1,0 +1,19 @@
+{
+  "name": "examples",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ant-design-vue": "1.7.8",
+    "vue": "2.6"
+  },
+  "devDependencies": {
+    "vite": "^2.9.9",
+    "vite-plugin-vue2": "^2.0.1",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
