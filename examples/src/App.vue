@@ -1,14 +1,59 @@
 <template>
-  <div>hello vue2</div>
+  <div>
+    hello vue2
+    <queryFilterVue :data="searchData" :span="6"></queryFilterVue>
+  </div>
 </template>
 
 <script>
+import queryFilterVue from "../../packages/query-filter/src/queryFilter.vue";
+
 export default {
   name: "",
-  components: {},
+  components: {
+    queryFilterVue,
+  },
   props: {},
   data() {
-    return {};
+    return {
+      searchData: [
+        {
+          type: "input",
+          label: "姓名",
+          name: "name",
+          itemProps: {
+            placeholder: "请输入姓名",
+          },
+        },
+        {
+          type: "input",
+          label: "年龄",
+          name: "age",
+          itemProps: {
+            placeholder: "请输入年龄",
+          },
+        },
+        {
+          type: "select",
+          label: "性别",
+          name: "gender",
+          itemProps: {
+            textField: "text",
+            valueField: "value",
+            option: [
+              {
+                value: "1",
+                text: "男",
+              },
+              {
+                value: "2",
+                text: "女",
+              },
+            ],
+          },
+        },
+      ],
+    };
   },
 };
 </script>
