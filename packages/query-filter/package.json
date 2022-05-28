@@ -1,7 +1,7 @@
 {
   "name": "@annoyc/query-filter",
   "version": "0.0.5",
-  "description": "基于antdv@1.7.8+vue2开箱即用的查询过滤组件",
+  "description": "基于antdv@1.7.8+vue2的查询过滤组件",
   "main": "./dist/query-filter.umd.js",
   "module": "./dist/query-filter.es.js",
   "files": [
