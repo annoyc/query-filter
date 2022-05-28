@@ -1,7 +1,7 @@
 {
   "name": "query-filter",
   "version": "1.0.0",
-  "description": "基于antdv的开箱即用的顶部查询过滤组件",
+  "description": "基于antdv@1.7.8+vue2开箱即用的查询过滤组件",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -23,6 +23,7 @@ importers:
 
   examples:
     specifiers:
+      '@annoyc/query-filter': workspace:^0.0.3
       ant-design-vue: 1.7.8
       less: ^4.1.2
       vite: ^2.9.9
@@ -30,6 +31,7 @@ importers:
       vue: '2.6'
       vue-template-compiler: ^2.6.14
     dependencies:
+      '@annoyc/query-filter': link:../packages/query-filter
       ant-design-vue: 1.7.8_9065e7474e033a8e4b95615fc8e6c36c
       vue: 2.6.14
     devDependencies:

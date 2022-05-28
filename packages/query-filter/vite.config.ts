@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: "./src/index.ts",
-      name: "query-filter",
+      name: "QueryFilter",
       fileName: (format) => `query-filter.${format}.js`,
     },
     rollupOptions: {
